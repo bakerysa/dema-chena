@@ -1,0 +1,33 @@
+{
+  "name": "bakery",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Lee Munroe"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/leemunroe/motherplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.1",
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7"
+  },
+   
+    "overrides": {
+  "bootstrap": {
+    "main": [
+      "dist/js/bootstrap.js",
+      "dist/css/bootstrap.css",
+      "less/bootstrap.less"
+    ]
+  }
+}
+    
+}
