@@ -3,10 +3,10 @@
   "description": "",
   "main": "index.html",
   "authors": [
-    "Lee Munroe"
+    "The Bakery"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/leemunroe/motherplate",
+  "homepage": "https://github.com/bakerysa/bakeplate",
   "ignore": [
     "**/.*",
     "node_modules",
