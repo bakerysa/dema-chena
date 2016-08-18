@@ -2781,6 +2781,7 @@ body {
       border: solid 1px #E0BB97;
       color: #18261B; }
   .second .social {
+    position: absolute;
     top: 150px;
     text-align: center;
     font-size: 20px;
@@ -2801,7 +2802,7 @@ body {
   white-space: nowrap; }
 
 @media (max-width: 767px) {
-  .btn {
+  .social {
     margin-top: 40px !important; } }
 
 /*# sourceMappingURL=main.css.map */

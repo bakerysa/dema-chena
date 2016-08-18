@@ -152,6 +152,7 @@ body {
         }
     }
     .social {
+        position: absolute;
         top: 150px;
         text-align: center;
         font-size: 20px;
@@ -178,7 +179,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    .btn {
+    .social {
         margin-top: 40px!important;
     }
 }
