@@ -46,6 +46,7 @@ body {
     background-color: #18261B;
     
     p {
+        letter-spacing: 1px;
         color: #E0BB97;
         font-size: 15px;
         text-transform: uppercase;
@@ -86,7 +87,7 @@ body {
 
 .left-text {
     position: absolute;
-    left: 10px;
+    left: 0;
     top: 50%;
     /* Safari */
     -webkit-transform: translateY(-50%) rotate(-90deg);
@@ -101,7 +102,7 @@ body {
 
 .right-text {
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 50%;
     /* Safari */
     -webkit-transform:translateY(-50%) rotate(90deg);
@@ -159,14 +160,14 @@ body {
     }
     i {
         color: #E0BB97;
-        padding: 8px 8px;
+        padding: 10px 10.5px;
         text-decoration: none;
         &:hover {
             color: #E6D6C6;
         }
     }
     .bottom-text {
-        bottom: 30px;
+        bottom: 20px;
     }
 }
 
@@ -174,4 +175,10 @@ body {
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        margin-top: 40px!important;
+    }
 }
