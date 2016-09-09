@@ -44,7 +44,7 @@
 
 body {
     background-color: #18261B;
-    
+
     p {
         letter-spacing: 1px;
         color: #E0BB97;
@@ -74,7 +74,7 @@ body {
         z-index: 100;
         white-space: nowrap;
     }
-    
+
     .top-text {
         top: 40px;
     }
@@ -124,9 +124,9 @@ body {
     p {
     position: absolute;
     z-index: 100;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
-    
+
     .btn {
         margin-left: auto;
         margin-right: auto;
@@ -149,6 +149,7 @@ body {
             background: #E0BB97;
             border: solid 1px #E0BB97;
             color: #18261B;
+            outline: none;
         }
     }
     .social {
@@ -178,6 +179,82 @@ body {
     white-space: nowrap;
 }
 
+// Contact Form
+#mc_embed_signup {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+}
+
+#mc_embed_signup_scroll {
+  h2 {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    color: #E0BB97;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: FranklinBold!important;
+    text-align: center;
+  }
+   .mc-field-group {
+    text-align: center;
+    color: #E0BB97;
+    font-size: 10px;
+    font-family: FranklinBold!important;
+  }
+  input {
+    background: #18261B;
+    border: solid 1px #E0BB97;
+    color: #E0BB97;
+    text-size: 10px;
+    text-transform: uppercase;
+    border-radius: 0px;
+  }
+  .mc-field-group {
+    margin-bottom: 10px;
+  }
+}
+
+.img-contain {
+  position: relative;
+  max-width: 200px;
+  max-height: 150px;
+  margin: 25px auto;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9c8772;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #9c8772;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #9c8772;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #9c8772;
+}
+
+#mc-embedded-subscribe{
+  letter-spacing: 1px;
+  color: #E0BB97;
+  font-size: 15px;
+  text-transform: uppercase;
+  right: 50%;
+  outline: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  &:hover {
+      background: #E0BB97;
+      border: solid 1px #E0BB97;
+      color: #18261B;
+      outline: none;
+  }
+}
+
 @media (max-width: 767px) {
     .social {
         margin-top: 40px!important;
@@ -192,6 +269,15 @@ body {
         right: -30px;
     }
     .bottom-text {
-        bottom: 0!important;   
+        bottom: 0!important;
     }
+    #mc_embed_signup {
+    position: relative;
+    left: inherit;
+    top: inherit;
+    transform: none;
+    }
+#mc_embed_signup_scroll input {
+    max-width: 285px;
+}
 }
