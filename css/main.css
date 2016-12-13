@@ -2762,7 +2762,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 106px;
-    margin-top: 100px;
+    margin-top: 50px;
     cursor: pointer;
     height: 30px;
     outline: none;
@@ -2783,7 +2783,7 @@ body {
       outline: none; }
   .second .social {
     position: absolute;
-    margin-top: 110px;
+    margin-top: 5px;
     text-align: center;
     font-size: 20px;
     min-width: 200px;
@@ -2858,12 +2858,14 @@ body {
   color: #E0BB97;
   font-size: 15px;
   text-transform: uppercase;
+  cursor: pointer;
   right: 50%;
   outline: none;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-weight: bold; }
   #mc-embedded-subscribe:hover {
     background: #E0BB97;
     border: solid 1px #E0BB97;
@@ -2872,7 +2874,7 @@ body {
 
 @media (max-width: 767px) {
   .social {
-    margin-top: 40px !important; }
+    margin-top: -5px !important; }
 
   .top-text {
     top: 20px !important; }
